@@ -1,0 +1,12 @@
+INSTRUCTIUNI:
+
+1. Pentru implementarea acestui soft (website), aveti nevoie de XAMPP/WAMPP. Instalarea s-ar putea efectua prin urmatorul link: https://www.apachefriends.org/download.html
+2. Avand in vedere ca sistemul acesta foloseste o baza de date relationala, anume MySQL, este nevoie sa incarcati si baza de date in PhpMyAdmin.
+   (1) Intrati pe phpmyadmin.
+   (2) Apasati pe butonul "New" pe lenta de navigare la stanga ecranului si creati o baza de date cu numele "crush" (numele nu trebuie schimbat!)
+   (3) Apasati pe baza de date respectiva (crush) si, ducandu-va cu mousul pe lenta de navigare de sus, navigati prin "Import".
+   (4) Incarcati baza de date.
+3. Porniti aplicatie laravel din directie unde ati pus aplicatia respectiva (click pe bara de navigare si stergeti tot, iar apoi scrieti "cmd" si apasati enter)
+   - Porniti aplicatia prin urmatoarea linie de comanda "php artisan serve" in consola de comanda.
+  [!] In caz in care nu aveti instalat Laravel, este nevoie sa faceti acest lucru. Laravel ar putea fi instalat prin modalitatea de composer (LINK: https://getcomposer.org/download/)
+      In directie D:\XAMPP\htdocs introduceti urmatoarea linie de comanda (composer global require "laravel/installer=~1.1")
